@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "worksphere"
+version = "0.1.0"
+description = "WorkSphere enterprise business platform"
+authors = ["Vivek Singh <vivek@example.com>"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
