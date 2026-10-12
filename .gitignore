@@ -1,0 +1,22 @@
+# .gitignore
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.venv/
+venv/
+.env.local
+node_modules/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+backend/.pytest_cache/
+backend/.venv/
+frontend/.vite/
+frontend/dist/
+.DS_Store
+
+# Alembic
+backend/alembic/versions/*.pyc
